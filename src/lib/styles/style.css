@@ -16,8 +16,12 @@ body {
 
 	background: #FCF5ED;
 	color: #1F1717;
-	font-family: sans-serif;
+	font-family: monospace;
 
+}
+
+p {
+	font-size: 16px;
 }
 
 ::-webkit-scrollbar{

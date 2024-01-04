@@ -2,7 +2,7 @@
 
 	<div class="navbutton">
 		<img class="icon" src="home.png" alt="icon">
-		<a href="/blog">Home</a>
+		<a href="/">Home</a>
 	</div>
 
 	<div class="navbar">
