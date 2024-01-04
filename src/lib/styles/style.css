@@ -1,0 +1,61 @@
+html, body {
+	height: 100%;
+}
+
+body {
+
+	display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+	scrollbar-gutter: stable;
+	overflow-y: scroll;
+	
+	margin: 0;
+	padding: 0;
+
+	background: #FCF5ED;
+	color: #1F1717;
+	font-family: sans-serif;
+
+}
+
+::-webkit-scrollbar{
+
+	background-color: #FCF5ED;
+	width: 6px;
+	
+}
+
+::-webkit-scrollbar-thumb{
+
+	background-color: #1F1717;
+	border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-button{
+
+	background-color: #1F1717;
+	height: 10px;
+	
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+	flex-grow: 0;
+
+	padding: 1rem;
+	margin: 2rem auto;
+}
+
+h1 {
+
+	color:#CE5A67;
+
+}
+
+.filler {flex: auto}
