@@ -18,6 +18,7 @@ GERMANY
 <style>
     p{
         text-align: center;
+        {}
     }
 
     .container{
